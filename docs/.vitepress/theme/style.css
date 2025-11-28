@@ -72,3 +72,28 @@
   background-color: rgba(31, 31, 31, 0.85) !important;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
+
+/* Medium Zoom 图片放大样式 */
+.medium-zoom-overlay {
+  z-index: 9998 !important;
+  background: var(--vp-c-bg) !important;
+}
+
+.medium-zoom-image {
+  z-index: 9999 !important;
+  cursor: pointer;
+}
+
+.medium-zoom-image--opened {
+  cursor: zoom-out;
+}
+
+/* 图片悬停效果 */
+.main img {
+  cursor: zoom-in;
+  transition: opacity 0.3s ease;
+}
+
+.main img:hover {
+  opacity: 0.9;
+}
