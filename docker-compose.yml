@@ -1,0 +1,10 @@
+services:
+  mumunovel-docs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: mumujie/mumunovel-docs:latest
+    container_name: mumunovel-docs-container
+    ports:
+      - "8089:80"
+    restart: unless-stopped

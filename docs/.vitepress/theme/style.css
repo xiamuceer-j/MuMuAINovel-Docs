@@ -1,0 +1,25 @@
+:root {
+  --vp-button-sponsor-border: transparent;
+  --vp-button-sponsor-bg: #f6ad48;
+  --vp-button-sponsor-text: #fff;
+  --vp-button-sponsor-hover-border: transparent;
+  --vp-button-sponsor-hover-bg: #f8c16f;
+  --vp-button-sponsor-hover-text: #fff;
+  --vp-button-sponsor-active-border: transparent;
+}
+
+.VPHero .actions .VPButton.sponsor {
+  border-color: var(--vp-button-sponsor-border);
+  color: var(--vp-button-sponsor-text);
+  background-color: var(--vp-button-sponsor-bg);
+}
+
+.VPHero .actions .VPButton.sponsor:hover {
+  border-color: var(--vp-button-sponsor-hover-border);
+  color: var(--vp-button-sponsor-hover-text);
+  background-color: var(--vp-button-sponsor-hover-bg);
+}
+
+.VPHero .actions .VPButton.sponsor:active {
+  border-color: var(--vp-button-sponsor-active-border);
+}

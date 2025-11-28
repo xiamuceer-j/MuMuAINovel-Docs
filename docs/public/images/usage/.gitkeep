@@ -1,0 +1,43 @@
+# 使用教程图片目录
+
+请将使用教程相关的截图放在此目录下。
+
+## 图片命名规范
+
+建议按照以下方式命名图片文件：
+
+- `login.png` - 登录界面
+- `project-list.png` - 项目列表
+- `wizard-create.png` - 创建向导
+- `project-detail.png` - 项目详情
+- `outline.png` - 大纲管理
+- `characters.png` - 角色管理
+- `character-detail.png` - 角色详情
+- `relationships.png` - 关系图谱
+- `chapters.png` - 章节列表
+- `chapter-editor.png` - 章节编辑器
+- `chapter-regenerate.png` - 章节重新生成
+- `world-setting.png` - 世界观设定
+- `inspiration.png` - 灵感模式
+- `writing-styles.png` - 写作风格
+- `settings.png` - 设置页面
+
+## 在 Markdown 中引用图片
+
+在 `docs/usage/index.md` 中使用以下语法引用图片：
+
+```markdown
+![图片描述](/images/usage/图片文件名.png)
+```
+
+例如：
+```markdown
+![登录界面](/images/usage/login.png)
+```
+
+## 图片格式建议
+
+- 格式：PNG 或 JPG
+- 建议宽度：800-1200px
+- 文件大小：尽量控制在 500KB 以内
+- 如果图片较大，可以使用图片压缩工具优化
