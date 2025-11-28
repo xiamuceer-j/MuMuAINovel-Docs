@@ -23,7 +23,7 @@ MuMuAINovel 是一个强大的 AI 智能小说创作助手，具有以下核心�
 
 ### 在线访问
 
-访问在线文档站：[https://mumuverse.space:1588/](https://mumuverse.space:1588/)
+访问在线文档站：[https://mumuverse.space:1589/](https://mumuverse.space:1589/)
 
 ### 本地开发
 
