@@ -23,3 +23,52 @@
 .VPHero .actions .VPButton.sponsor:active {
   border-color: var(--vp-button-sponsor-active-border);
 }
+
+.VPContent.is-home {
+  background-image: url('/images/background-white.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.dark .VPContent.is-home {
+  background-image: url('/images/background-black.jpg');
+}
+
+/* 亮色模式下的 tagline 文字颜色优化 */
+.VPHero .tagline {
+  color: #2c3e50;
+  font-weight: 500;
+}
+
+/* 暗色模式保持默认样式 */
+.dark .VPHero .tagline {
+  color: rgba(235, 235, 245, 0.6);
+}
+
+/* 首页功能卡片半透明效果 */
+.VPFeature {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: all 0.3s ease;
+}
+
+.VPFeature:hover {
+  background-color: rgba(255, 255, 255, 0.85) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* 暗色模式下的卡片效果 */
+.dark .VPFeature {
+  background-color: rgba(31, 31, 31, 0.5) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dark .VPFeature:hover {
+  background-color: rgba(31, 31, 31, 0.85) !important;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
